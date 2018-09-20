@@ -1,7 +1,7 @@
 class Sorter {
 
   constructor() {
-    this.stack = new Array();
+    this.stack = [];
     this.check = function(first, second) {
       return first - second;
     };
