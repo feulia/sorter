@@ -43,3 +43,5 @@ class Sorter {
     this.compare = compareFunction;
   }
 }
+
+module.exports = Sorter;
